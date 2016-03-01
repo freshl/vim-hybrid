@@ -102,10 +102,10 @@ let s:palette.gui.selection  = { 'dark' : s:gui_selection  , 'light' : "#bcbcbc"
 let s:palette.gui.line       = { 'dark' : s:gui_line       , 'light' : "#d0d0d0" }
 let s:palette.gui.comment    = { 'dark' : s:gui_comment    , 'light' : "#5f5f5f" }
 let s:palette.gui.red        = { 'dark' : "#cc6666"        , 'light' : "#5f0000" }
-let s:palette.gui.orange     = { 'dark' : "#de935f"        , 'light' : "#875f00" }
+let s:palette.gui.orange     = { 'dark' : "#737bff"        , 'light' : "#737bff" }
 let s:palette.gui.yellow     = { 'dark' : "#f0c674"        , 'light' : "#5f5f00" }
 let s:palette.gui.green      = { 'dark' : "#b5bd68"        , 'light' : "#005f00" }
-let s:palette.gui.aqua       = { 'dark' : "#8abeb7"        , 'light' : "#005f5f" }
+let s:palette.gui.aqua       = { 'dark' : "#7831E0"        , 'light' : "#7831E0" }
 let s:palette.gui.blue       = { 'dark' : "#737bff"        , 'light' : "#4D53B3" }
 let s:palette.gui.purple     = { 'dark' : "#b294bb"        , 'light' : "#5f005f" }
 let s:palette.gui.window     = { 'dark' : "#303030"        , 'light' : "#9e9e9e" }
@@ -116,7 +116,7 @@ let s:palette.gui.changebg   = { 'dark' : "#5F5F87"        , 'light' : "#d7d7ff"
 let s:palette.gui.changefg   = { 'dark' : "#d7d7ff"        , 'light' : "#5f005f" }
 let s:palette.gui.delbg      = { 'dark' : "#cc6666"        , 'light' : "#ffd7d7" }
 let s:palette.gui.darkblue   = { 'dark' : "#00005f"        , 'light' : "#d7ffd7" }
-let s:palette.gui.darkcyan   = { 'dark' : "#005f5f"        , 'light' : "#005f00" }
+let s:palette.gui.darkcyan   = { 'dark' : "d2d400"        , 'light' : "d2d400" }
 let s:palette.gui.darkred    = { 'dark' : "#5f0000"        , 'light' : "#d7d7ff" }
 let s:palette.gui.darkpurple = { 'dark' : "#5f005f"        , 'light' : "#5f005f" }
 
@@ -128,10 +128,10 @@ if exists("g:hybrid_custom_term_colors") && g:hybrid_custom_term_colors == 1
   let s:cterm_red        = "9"   " LightRed
   let s:cterm_orange     = "3"   " DarkYellow
   let s:cterm_yellow     = "11"  " LightYellow
-  let s:cterm_green      = "10"  " LightGreen
+  let s:cterm_green      = "14"  " LightGreen
   let s:cterm_aqua       = "14"  " LightCyan
-  let s:cterm_blue       = "12"  " LightBlue
-  let s:cterm_purple     = "13"  " LightMagenta
+  let s:cterm_blue       = "63"  " LightBlue
+  let s:cterm_purple     = "41"  " LightMagenta
   let s:cterm_delbg      = "9"   " LightRed
 else
   let s:cterm_foreground = "250"
@@ -139,13 +139,13 @@ else
   let s:cterm_line       = "235"
   let s:cterm_comment    = "243"
   let s:cterm_red        = "167"
-  let s:cterm_orange     = "173"
-  let s:cterm_yellow     = "221"
-  let s:cterm_green      = "143"
-  let s:cterm_aqua       = "109"
-  let s:cterm_blue       = "110"
-  let s:cterm_purple     = "139"
-  let s:cterm_delbg      = "167"
+  let s:cterm_orange     = "3"   " DarkYellow
+  let s:cterm_yellow     = "11"  " LightYellow
+  let s:cterm_green      = "14"  " LightGreen
+  let s:cterm_aqua       = "14"  " LightCyan
+  let s:cterm_blue       = "63"  " LightBlue
+  let s:cterm_purple     = "41"  " LightMagenta
+  let s:cterm_delbg      = "9"   " LightRed
 endif
 
 let s:palette.cterm.background = { 'dark' : "234"              , 'light' : "254" }
@@ -167,8 +167,8 @@ let s:palette.cterm.addfg      = { 'dark' : "193"              , 'light' : "22" 
 let s:palette.cterm.changebg   = { 'dark' : "60"               , 'light' : "189" }
 let s:palette.cterm.changefg   = { 'dark' : "189"              , 'light' : "53"  }
 let s:palette.cterm.delbg      = { 'dark' : s:cterm_delbg      , 'light' : "224" }
-let s:palette.cterm.darkblue   = { 'dark' : "17"               , 'light' : "194" }
-let s:palette.cterm.darkcyan   = { 'dark' : "24"               , 'light' : "22"  }
+let s:palette.cterm.darkblue   = { 'dark' : "63"               , 'light' : "63" }
+let s:palette.cterm.darkcyan   = { 'dark' : "41"               , 'light' : "41"  }
 let s:palette.cterm.darkred    = { 'dark' : "52"               , 'light' : "189" }
 let s:palette.cterm.darkpurple = { 'dark' : "53"               , 'light' : "53"  }
 
