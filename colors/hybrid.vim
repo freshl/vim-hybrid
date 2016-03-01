@@ -102,7 +102,7 @@ let s:palette.gui.selection  = { 'dark' : s:gui_selection  , 'light' : "#bcbcbc"
 let s:palette.gui.line       = { 'dark' : s:gui_line       , 'light' : "#d0d0d0" }
 let s:palette.gui.comment    = { 'dark' : s:gui_comment    , 'light' : "#5f5f5f" }
 let s:palette.gui.red        = { 'dark' : "#cc6666"        , 'light' : "#5f0000" }
-let s:palette.gui.orange     = { 'dark' : "#737bff"        , 'light' : "#737bff" }
+let s:palette.gui.orange     = { 'dark' : "#e05f00"        , 'light' : "#e05f00" }
 let s:palette.gui.yellow     = { 'dark' : "#f0c674"        , 'light' : "#5f5f00" }
 let s:palette.gui.green      = { 'dark' : "#b5bd68"        , 'light' : "#005f00" }
 let s:palette.gui.aqua       = { 'dark' : "#7831E0"        , 'light' : "#7831E0" }
@@ -116,7 +116,7 @@ let s:palette.gui.changebg   = { 'dark' : "#5F5F87"        , 'light' : "#d7d7ff"
 let s:palette.gui.changefg   = { 'dark' : "#d7d7ff"        , 'light' : "#5f005f" }
 let s:palette.gui.delbg      = { 'dark' : "#cc6666"        , 'light' : "#ffd7d7" }
 let s:palette.gui.darkblue   = { 'dark' : "#00005f"        , 'light' : "#d7ffd7" }
-let s:palette.gui.darkcyan   = { 'dark' : "d2d400"        , 'light' : "d2d400" }
+let s:palette.gui.darkcyan   = { 'dark' : "#d2d400"        , 'light' : "#d2d400" }
 let s:palette.gui.darkred    = { 'dark' : "#5f0000"        , 'light' : "#d7d7ff" }
 let s:palette.gui.darkpurple = { 'dark' : "#5f005f"        , 'light' : "#5f005f" }
 
